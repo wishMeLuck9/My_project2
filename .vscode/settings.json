@@ -56,6 +56,35 @@
         "temp/": true,
         "Temp/": true
     },
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/Build/**": true,
+        "**/build/**": true,
+        "**/Library/**": true,
+        "**/library/**": true,
+        "**/Logs/**": true,
+        "**/logs/**": true,
+        "**/Obj/**": true,
+        "**/obj/**": true,
+        "**/Temp/**": true,
+        "**/temp/**": true,
+        "**/UserSettings/**": true
+    },
+    "search.exclude": {
+        "**/.vs/**": true,
+        "**/Build/**": true,
+        "**/build/**": true,
+        "**/Library/**": true,
+        "**/library/**": true,
+        "**/Logs/**": true,
+        "**/logs/**": true,
+        "**/Obj/**": true,
+        "**/obj/**": true,
+        "**/Temp/**": true,
+        "**/temp/**": true,
+        "**/UserSettings/**": true
+    },
     "files.associations": {
         "*.asset": "yaml",
         "*.meta": "yaml",
