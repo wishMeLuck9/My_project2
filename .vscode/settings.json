@@ -96,5 +96,21 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "My_project2.slnx"
-}
+    "dotnet.defaultSolution": "My_project2.slnx",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.parameterHints.enabled": true,
+    "[csharp]": {
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": false
+        },
+        "editor.suggestOnTriggerCharacters": true,
+        "editor.parameterHints.enabled": true
+    }
+ }
