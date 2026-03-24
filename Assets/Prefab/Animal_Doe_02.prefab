@@ -933,6 +933,7 @@ GameObject:
   - component: {fileID: 4594610112150801514}
   - component: {fileID: 4320865703671793195}
   - component: {fileID: 7781604060785485355}
+  - component: {fileID: -6436921647327321633}
   m_Layer: 0
   m_Name: Animal_Doe_02
   m_TagString: Untagged
@@ -1033,3 +1034,15 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.09, y: 0.41269252, z: 0.43715024}
   m_Center: {x: 0, y: 0.1694546, z: 0.05468447}
+--- !u!114 &-6436921647327321633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8853051387897945183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8208b9ba390ce54fa428c256f2c13b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Collision
