@@ -9,23 +9,26 @@ public class PlayerController : MonoBehaviour
     public GameObject projectilePrefab;
     public Vector3 projectileSpawnOffset = new Vector3(0.0f, 0.0f, 1.0f);
 
-    // Update is called once per frame
     void Update()
     {
+        // Keep the player inside the side borders.
         if (transform.position.x < -xRange)
         {
             transform.position = new Vector3(-xRange, transform.position.y, transform.position.z);
         }
+
         if (transform.position.x > xRange)
         {
             transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
         }
+
+        // Move the player left and right.
         horizontalInput = Input.GetAxis("Horizontal");
         transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * speed);
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            // Launch a projectile from the player
+            // Spawn an apple in front of the player.
             Instantiate(
                 projectilePrefab,
                 transform.position + projectileSpawnOffset,
