@@ -96,7 +96,7 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "My_project2.slnx",
+    "dotnet.defaultSolution": "Prototype2_Food_Flight.slnx",
     "editor.quickSuggestions": {
         "other": true,
         "comments": false,
@@ -113,4 +113,4 @@
         "editor.suggestOnTriggerCharacters": true,
         "editor.parameterHints.enabled": true
     }
- }
+}
